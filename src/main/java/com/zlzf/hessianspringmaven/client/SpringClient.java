@@ -13,5 +13,5 @@ public class SpringClient {
         // 获得客户端的Hessian代理工厂bean  
         SayHello i = (SayHello) contex.getBean("hessianClient");  
         System.out.println(i.sayHello("masongchao"));  
-    }  
+	}  
 }
